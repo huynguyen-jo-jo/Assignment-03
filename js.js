@@ -29,18 +29,6 @@ class Student{
     }
 }
     
-    var st2 = new Student('Huy1','FeMale',9,new Subject('Toan',1,'Ly',9))
-    var st9 = new Student('Huy8','Male',2,new Subject('Toan',8,'Ly',2))
-    var st4 = new Student('Huy3','FeMale',7,new Subject('Toan',3,'Ly',7))
-    var st7 = new Student('Huy6','Male',4,new Subject('Toan',6,'Ly',4))
-    var st3 = new Student('Huy2','FeMale',8,new Subject('Toan',2,'Ly',8))
-    var st5 = new Student('Huy4','Male',6,new Subject('Toan',4,'Ly',6))
-    var st0 = new Student('Huy10','Male',0,new Subject('Toan',10,'Ly',0))
-    var st6 = new Student('Huy5','FeMale',5,new Subject('Toan',5,'Ly',5))
-    var st8 = new Student('Huy7','Male',3,new Subject('Toan',7,'Ly',3))
-    var st1 = new Student('Huy','Male',10,new Subject('Toan',0,'Ly',10))
-    var st10 = new Student('Huy9','Male',1,new Subject('Toan',9,'Ly',1))
-    
     class MangerStudent{
         constructor(){
             this.list =[]
