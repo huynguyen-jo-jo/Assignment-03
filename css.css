@@ -1,0 +1,111 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(247, 188, 62, 0.753);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.text-white{
+    color: #fff !important;
+}
+.row{
+    display: flex;
+}
+.col-5{
+    width: 50%;
+}
+.col-2{
+    width: 20%;
+}
+.col-1{
+    width: 10%;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.bd-grey{
+    /* border: 2px solid rgb(110, 129, 165) !important; */
+    border: 2px solid rgb(130, 35, 207) !important;
+}
+.box-1{
+    text-align: center;
+    color: rgb(13, 44, 25);
+    margin: 0 1px;
+    /* border: 2px solid rgb(23, 92, 221); */
+    border: 2px solid rgb(112, 108, 51);
+}
+.btn{
+    width: 15%;
+    height: 40px;
+    background-color: aqua;
+    left: 240px;
+    position: relative;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.form{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background: rgb(55, 199, 218);
+    left: 30%;
+    display: none;
+    opacity: 0;
+    transition: opacity linear 0.5s ; 
+}
+.form-adds:target{
+    display: block;
+    opacity: 1;
+}
+.form-search:target{
+    display: block;
+    opacity: 1;
+}
+.form-add{
+    margin-top: 10px;
+    transform: translateX(50px);
+}
+.form-btn{
+    margin-top: 15px;
+    display: flex;
+}
+.btn-add{
+    margin-left: 50px;
+}
+.btn-sch{
+    margin-left: 50px;
+}
+.btn-Xong{
+    margin-left: 360px;
+}
+
+ .btn-f{
+    width: 12%;
+    height: 38px;
+    background-color: rgb(243, 108, 54);
+    line-height: 38px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+ }
+ input{
+    width: 95%;
+    outline: none;
+ }
+.ml-4{
+    margin-left: 5px;
+}
